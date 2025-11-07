@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "task1_astar",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "task1_astar.py",
+            "args": [
+                "instances/empty-16-16-random-9.scen"
+            ]
+        },
+        {
+            "name": "task1_astar (solution)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "solution/task1_astar.py",
+            "args": [
+                "instances/empty-16-16-random-9.scen"
+            ]
+        },
+        {
+            "name": "task2_bcp",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "task2_bcp.py",
+            "args": [
+                "--num-agents",
+                "55",
+                "instances/empty-16-16-random-9.scen"
+            ]
+        },
+        {
+            "name": "task2_bcp (solution)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "solution/task2_bcp.py",
+            "args": [
+                "--num-agents",
+                "55",
+                "instances/empty-16-16-random-9.scen"
+            ]
+        }
+    ]
+}
